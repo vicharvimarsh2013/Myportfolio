@@ -5,22 +5,25 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+    <!-- <link rel="stylesheet" href="mediaqueries.css" /> -->
     <script src="https://kit.fontawesome.com/876ab284aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="bg">
         <nav id="desktop-id">
-            <div class="logo">vimarsh2013@gmail.com</div>
-            <div>
+            <div class="logo" style="margin-left: 30px;" > <H1>Vimarsh Tiwari</H1> </div>
+            <div style="margin-right: 30px;">
                 <ul class="nav-links">
-                    <li><a class="nav-a" href="#services">Services</a></li>
-                    <li><a class="nav-a" href="#works">Works</a></li>
-                    <li><a class="nav-a" href="#resume">Resume</a></li>
-                    <li><a class="nav-a" href="#skills">Skills</a></li>
-                    <li><a class="nav-a" href="#contact">Contact</a></li>
+                    <li class="nav-item" ><a class="nav-a" href="#profile">Home</a></li>
+                    <li class="nav-item"><a class="nav-a" href="#experince">Experience</a></li>
+                    <!-- <li><a class="nav-a" href="#resume">Resume</a></li> -->
+                    <li class="nav-item"><a class="nav-a" href="#skills">Skills</a></li>
+                    <!-- <li><a class="nav-a" href="#contact">Contact</a></li> -->
                     <!-- <li><a href="#hireme">Hire me</a></li> -->
-                    <button class="btn">Hire Me!</button>
+                    <a href="#contact">
+
+                        <button class="btn">Contact</button>
+                    </a>
                 </ul>
             </div>
         </nav>
@@ -82,7 +85,7 @@
         </div>
     </section> -->
     <!-- My Experience and Education section -->
-    <section class="resume-section">
+    <section class="resume-section" id="experince">
         <div class="resume-container">
             <div class="row">
 
@@ -92,25 +95,25 @@
                     </div>
                     <div class="section-content">
                         <div class="resume-item">
-                            <div class="item-time">2022 - Present</div>
+                            <div class="item-time">January, 2024 - February, 2024</div>
                             <div class="item-title">
-                                <h3>LEAD DEVELOPER</h3>
+                                <h3>DATA SCIENCE INTERN</h3>
                             </div>
-                            <div class="item-location">Blockdots, London</div>
+                            <div class="item-location">Batweb Technologies, Ahmedabad</div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="item-time">August, 2023 - Present</div>
+                            <div class="item-title">
+                                <h3>CO-LEAD</h3>
+                            </div>
+                            <div class="item-location">Google Developer Student Clubs, Silver Oak University</div>
                         </div>
                         <div class="resume-item">
                             <div class="item-time">2022 - Present</div>
                             <div class="item-title">
-                                <h3>LEAD DEVELOPER</h3>
+                                <h3>TREASURER</h3>
                             </div>
-                            <div class="item-location">Blockdots, London</div>
-                        </div>
-                        <div class="resume-item">
-                            <div class="item-time">2022 - Present</div>
-                            <div class="item-title">
-                                <h3>LEAD DEVELOPER</h3>
-                            </div>
-                            <div class="item-location">Blockdots, London</div>
+                            <div class="item-location">IEEE SOU SIGHT SBG, Ahmedabad</div>
                         </div>
                         <!-- <div class="resume-item">
                             <div class="item-time">2022 - Present</div>
@@ -127,25 +130,25 @@
                     </div>
                     <div class="section-content">
                         <div class="resume-item">
-                            <div class="item-time">2022 - Present</div>
+                            <div class="item-time">2021 - Present</div>
                             <div class="item-title">
-                                <h3>LEAD DEVELOPER</h3>
+                                <h3> BTECH-COMPUTER ENGINEERING  </h3>
                             </div>
-                            <div class="item-location">Blockdots, London</div>
+                            <div class="item-location">Silver Oak College of Technology, Ahmedabad</div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="item-time">2013 - 2020</div>
+                            <div class="item-title">
+                                <h3>High Schooling </h3>
+                            </div>
+                            <div class="item-location">Anand Niketan Maninagar, Ahmedabad</div>
                         </div>
                         <div class="resume-item">
                             <div class="item-time">2022 - Present</div>
                             <div class="item-title">
-                                <h3>LEAD DEVELOPER</h3>
+                                <h3>SECONDARY Schooling</h3>
                             </div>
-                            <div class="item-location">Blockdots, London</div>
-                        </div>
-                        <div class="resume-item">
-                            <div class="item-time">2022 - Present</div>
-                            <div class="item-title">
-                                <h3>LEAD DEVELOPER</h3>
-                            </div>
-                            <div class="item-location">Blockdots, London</div>
+                            <div class="item-location">Sharjah Indian School, Sharjah</div>
                         </div>
                         <!-- <div class="resume-item">
                             <div class="item-time">2022 - Present</div>
@@ -160,31 +163,31 @@
         </div>
     </section>
     <section>
-        <div class="skills-section">
+        <div class="skills-section" id="skills">
             <div class="top-title">
                 <h1 class="skill-title"  >My Skills</h1>
                 <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers. </p>
             </div>
             <div>
                 <div class="skill-cards">
-                    <div>
-                        <div class="skill-card"> <img src="Figma.png" alt="" style="width: 80px;"> <p>100%</p> </div>
+                    <div class="skill-card-tilt">
+                        <div class="skill-card"> <img class="skill-img" src="Figma.png" alt="" style="width: 80px;"> <p>80%</p> </div>
                         <div style="color: #8750f7;">Figma</div>
                     </div>
-                    <div>
-                        <div class="skill-card" > <img src="HTML.png" alt="" style="width: 70px;"><p >100%</p> </div>
+                    <div class="skill-card-tilt">
+                        <div class="skill-card" > <img class="skill-img" src="HTML.png" alt="" style="width: 70px;"><p >70%</p> </div>
                         <div style="color: #8750f7;">HTML</div>
                     </div>
-                    <div>
-                        <div class="skill-card"> <img src="CSS.png" alt="" style="width: 55px;"><p>100%</p> </div>
+                    <div class="skill-card-tilt">
+                        <div class="skill-card"> <img class="skill-img" src="CSS.png" alt="" style="width: 55px;"><p>70%</p> </div>
                         <div style="color: #8750f7;">CSS</div>
                     </div>
-                    <div>
-                        <div class="skill-card"> <img src="JS.png" alt="" style="width: 80px;"> <p>100%</p></div>
+                    <div class="skill-card-tilt">
+                        <div class="skill-card"> <img class="skill-img" src="JS.png" alt="" style="width: 80px;"> <p>65%</p></div>
                         <div style="color: #8750f7;">JavaScript</div>
                     </div>
-                    <div>
-                        <div class="skill-card"> <img src="Python.png" alt="" style="width: 60px;"> <p>100%</p> </div>
+                    <div class="skill-card-tilt">
+                        <div class="skill-card"> <img class="skill-img" src="Python.png" alt="" style="width: 60px;"> <p>95%</p> </div>
                         <div style="color: #8750f7;">Python</div>
                     </div>
 
@@ -194,7 +197,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
 
         <div class="contact-container" >
             <div class="contact-item1">
@@ -206,10 +209,10 @@
                 <div>
                     <form action="" class="form-main">
                         <div class="form">
-                            <input class="form-control" style="margin-right: 10px;"  type="text" name="" id="" placeholder="First Name">
-                            <input class="form-control" style="margin-left: 10px;" type="text" name="" id="" placeholder="Last Name">
-                            <input class="form-control" style="margin-right: 10px;" type="text" name="" id="" placeholder="Email Address">
-                            <input class="form-control" style="margin-left: 10px;" type="text" name="" id="" placeholder="Phone Number">
+                            <input class="form-control odd"   type="text" name="" id="" placeholder="First Name">
+                            <input class="form-control even" type="text" name="" id="" placeholder="Last Name">
+                            <input class="form-control odd"  type="text" name="" id="" placeholder="Email Address">
+                            <input class="form-control even" type="text" name="" id="" placeholder="Phone Number">
                         </div>
                         <textarea class="form-control-textarea" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                         <Button class="btn">Send Message</Button>
@@ -219,7 +222,7 @@
 
             <div class="contact-item2">
 
-                <div style="display: flex; align-items: center; column-gap: 30px;">
+                <div class="contact-end" style="display: flex; align-items: center; column-gap: 30px;">
                     <div class="icon-box">
                         <i class="fa-solid fa-phone" style="color: white;"></i>
                     </div>
@@ -228,7 +231,7 @@
                         <p style="margin: 0;"> <a href='tel:9574112342'>+91 9574112342</a> </p>
                     </div>
                 </div>
-                <div style="display: flex; align-items: center; column-gap: 30px;">
+                <div class="contact-end" style="display: flex; align-items: center; column-gap: 30px;">
                     <div class="icon-box">
                         <i class="fa-solid fa-envelope" style="color: white;"></i>
                     </div>
@@ -237,7 +240,7 @@
                         <p style="margin: 0;"> <a href='mailto:vimarsh2013@gmail.com'> vimarsh2013@gmail.com </a> </p>
                     </div>
                 </div>
-                <div style="display: flex; align-items: center; column-gap: 30px;">
+                <div class="contact-end" style="display: flex; align-items: center; column-gap: 30px;">
                     <div class="icon-box">
                         <i class="fa-solid fa-phone" style="color: white;"></i>
                     </div>
@@ -262,6 +265,16 @@
             </a>
         </div>
     </section>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".skill-card"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".skill-card"));
+    </script>
 </body>
 </html> 
 
